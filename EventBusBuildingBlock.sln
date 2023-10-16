@@ -9,6 +9,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{7874444A-7
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventBus.Test", "src\EventBus.Test\EventBus.Test.csproj", "{4347C121-7554-4F64-AF07-787F6555DC26}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventBus.RabbitMQ", "src\EventBus.RabbitMQ\EventBus.RabbitMQ.csproj", "{8AADB7BE-BD68-48A3-B2F3-7BC7A2ABB3CC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +25,10 @@ Global
 		{4347C121-7554-4F64-AF07-787F6555DC26}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4347C121-7554-4F64-AF07-787F6555DC26}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4347C121-7554-4F64-AF07-787F6555DC26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AADB7BE-BD68-48A3-B2F3-7BC7A2ABB3CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AADB7BE-BD68-48A3-B2F3-7BC7A2ABB3CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AADB7BE-BD68-48A3-B2F3-7BC7A2ABB3CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AADB7BE-BD68-48A3-B2F3-7BC7A2ABB3CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

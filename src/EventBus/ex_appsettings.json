@@ -1,0 +1,29 @@
+{
+  "ConnectionStrings": {
+    "EventBus": "..."
+  }
+
+  //{
+  //  "EventBus": {
+  //    "ProviderName": "ServiceBus | RabbitMQ",
+  //    ...
+  //  }
+  //},
+
+  //{
+  //  "EventBus": {
+  //    "ProviderName": "ServiceBus",
+  //    "SubscriptionClientName": "eshop_event_bus"
+  //  }
+  //},
+
+  //{
+  //  "EventBus": {
+  //    "ProviderName": "RabbitMQ",
+  //    "SubscriptionClientName": "...",
+  //    "UserName": "...",
+  //    "Password": "...",
+  //    "RetryCount": 1
+  //  }
+  //}
+}
