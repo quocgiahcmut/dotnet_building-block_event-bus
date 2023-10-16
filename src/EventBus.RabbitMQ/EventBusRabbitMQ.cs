@@ -24,7 +24,7 @@ public class EventBusRabbitMQ : IEventBus, IDisposable
         ILogger<EventBusRabbitMQ> logger,
         IEventBusSubscriptionsManager subscriptionsManager,
         IServiceProvider serviceProvider,
-        string queueName = null,
+        string queueName,
         int retryCount = 5)
     {
         _persistentConnection = persistentConnection ?? throw new ArgumentNullException(nameof(persistentConnection));
