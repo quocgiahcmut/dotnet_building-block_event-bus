@@ -31,4 +31,15 @@ public class ItemController : ControllerBase
 
         return Ok();
     }
+
+    [HttpGet]
+    public ActionResult RandomValue()
+    {
+        var rnd = new Random();
+
+        var itemChangeEvent = new ItemChangeValueEvent(rnd.Next(1, 15), rnd.Next(1, 150), rnd.Next(1, 150));
+        _eventBus.Publish(itemChangeEvent);
+
+        return Ok(itemChangeEvent);
+    }
 }

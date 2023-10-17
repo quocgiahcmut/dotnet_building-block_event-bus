@@ -56,7 +56,7 @@ public class EventBusRabbitMQ : IEventBus, IDisposable
 
     public void Publish(IntegrationEvent @event)
     {
-        if (_persistentConnection.IsConnected)
+        if (!_persistentConnection.IsConnected)
         {
             _persistentConnection.TryConnect();
         }
