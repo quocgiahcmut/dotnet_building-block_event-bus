@@ -185,7 +185,7 @@ public class EventBusRabbitMQ : IEventBus, IDisposable
 
         try
         {
-            if (message.ToLowerInvariant().Contains(""))
+            if (message.ToLowerInvariant().Contains("throw-fake-exception"))
             {
                 throw new InvalidOperationException($"Fake exception requested: \"{message}\"");
             }

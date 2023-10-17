@@ -24,7 +24,7 @@ public static class Extensions
 
                 var factory = new ConnectionFactory()
                 {
-                    HostName = configuration.GetConnectionString("EventBus"),
+                    HostName = eventBusSection["HostName"],
                     DispatchConsumersAsync = true
                 };
 
